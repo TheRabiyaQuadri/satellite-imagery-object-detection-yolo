@@ -89,6 +89,13 @@ The 15 object categories considered in this project are:
 
 ---
 
+## 📦 Releases & Pre-trained Models
+Official releases, version tags, and milestone checkpoints for this repository are managed directly through GitHub Releases:
+* **Current Version:** [v1.0.0 (Pre-trained satellite imagery object detection)](https://github.com/TheRabiyaQuadri/satellite-imagery-object-detection/releases/tag/v1.0.0)
+* **Release Artifacts:** Includes complete tiling and training pipelines, evaluation confusion matrices, and performance metrics for the DOTA benchmark.
+
+---
+
 ## ⚙️ Methodology
 
 ### 1. Dataset Preprocessing and Annotation Conversion
