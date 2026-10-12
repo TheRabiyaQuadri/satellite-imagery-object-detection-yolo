@@ -30,7 +30,8 @@ The project also evaluates model performance using training and validation loss 
 │   └── dota/
 │       # DOTA aerial imagery and annotations, download from kaggle
 │
-├── satellite_yolov8_tiling.ipynb
+├── satellite_yolov8_tiling.py
+├── custom train yolo v8 v5 v3.ipynb
 │       # Tiling, training, inference, and evaluation
 │
 ├── assets/
@@ -50,7 +51,10 @@ The project also evaluates model performance using training and validation loss 
 
 ## 🛠️ Dataset Information
 
-### DOTA Benchmark
+### 📥 Dataset Download (DOTA Benchmark)
+The aerial imagery and rotated bounding box annotations used for training and evaluating this model can be obtained directly from Kaggle:
+* **Kaggle Dataset:** [DOTADataset (Large-Scale Benchmark for Object Detection in Aerial Images)](https://www.kaggle.com/datasets/chandlertimm/dota-data)
+* **Setup Instructions:** Download and extract the dataset files, ensuring that the images and corresponding annotation directories are placed inside the `dataset/dota/` folder structure prior to running the tiling and training pipeline.
 
 The project uses the **DOTA (Dataset for Object Detection in Aerial Images)** benchmark, which contains aerial images with annotations for objects at different scales, orientations, and densities.
 
