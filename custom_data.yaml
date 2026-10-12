@@ -1,0 +1,42 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+# path: "C:/Users/91997/OneDrive - Niltech/Documents - Niltech Shared Site ML/Projects Ongoing/Rabiya Ongoing/Object detection using Dota dataset/DOTAv2 dataset"  # dataset root dir
+path: 'C:/Users/91997/Desktop/Dotav2 yolo v8 Training/DOTAv2 Datast/'
+train: train/images  # train images (relative to 'path') 128 images
+val: test/images  # val images (relative to 'path') 128 images
+#test: test/images # test images (optional)
+
+# # Classes
+# # Dotav1
+# names:
+#   0: plane
+#   1: baseball-diamond
+#   2: bridge
+#   3: ground-track-field
+#   4: small-vehicle
+#   5: large-vehicle
+#   6: ship
+#   7: tennis-court
+#   8: basketball-court
+#   9: storage-tank
+#   10: soccer-ball-field
+#   11: roundabout
+#   12: harbor
+#   13: swimming-pool
+#   14: helicopter
+#   15: container-crane
+
+# Dotav2
+names: ['airport', 'baseball-diamond', 'basketball-court', 'bridge', 'container-crane', 'ground-track-field', 'harbor', 'helicopter', 'helipad', 'large-vehicle', 'plane', 'roundabout', 'ship', 'small-vehicle', 'soccer-ball-field', 'storage-tank', 'swimming-pool', 'tennis-court']
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
